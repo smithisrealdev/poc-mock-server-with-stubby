@@ -1,0 +1,13 @@
+-  description: 3rd-party account service
+   request:
+      url: /3rd/get/account
+      method: POST
+      headers:
+         content-type: application/json
+      file: ./3rd-party/account/request.json
+
+   response:
+      status: 200
+      headers:
+         content-type: application/json
+      file: ./3rd-party/account/response.json
